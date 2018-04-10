@@ -9,6 +9,7 @@ public class SandalAksi {
         s.setMerk("Crocodol");
         s.setWarna("Merah");
         s.setHarga(10000);
+       //gak bisa s.setJenisSepatu();
         
         s.cetakInfo();
         
@@ -18,6 +19,15 @@ public class SandalAksi {
         System.out.println(s.getWarna());
         System.out.print("Harganya \t:");
         System.out.println(s.getHarga());
+        
+        Sepatu sp = new Sepatu();
+        sp.setMerk("Nevada");
+        sp.setWarna("Abu-Abu");
+        sp.setJenisSepatu("Karet");
+        sp.setHarga(100000);
+        sp.cetakInfo();
+        System.out.println("Jenis\t :"+sp.getJenisSepatu());
+        sp.throttle();
 
 
 
